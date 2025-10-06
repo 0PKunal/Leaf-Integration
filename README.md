@@ -49,7 +49,7 @@ To run this project, you need:
 
 Install the required packages using:
 ```bash
-pip install numpy matplotlib scipy
+pip install numpy matplotlib
 ```
 
 Or if you have a `requirements.txt`:
@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 2. Install the required dependencies:
    ```bash
-   pip install numpy matplotlib scipy
+   pip install numpy matplotlib
    ```
 
 3. Run the Python script:
@@ -89,14 +89,20 @@ The program generates a visualization showing:
 - The shaded leaf-shaped region between them
 - The calculated area value (≈ 0.3333 or 1/3)
 
-![Leaf Integration Visualization](leaf_integration_plot.png)
-
+<p align="center">
+  <img src="Leaf_Integration.png" alt="Leaf Integration" width="400">
 *Image: Visualization of the area between $y = \sqrt{x}$ and $y = x^2$*
+</p>
 
-## License
-
-This project is open source and available under the MIT License.
-
----
 
 **Mathematical Note:** This problem beautifully demonstrates how integration can compute areas of complex shapes. The result of exactly 1/3 is a precise mathematical fact, showcasing the elegance of calculus in solving geometric problems.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+<div align="center">
+  <p>Made with ❤️ by <a href="https://github.com/0PKunal">0PKunal</a></p>
+  <p>If this project helped you, please give it a ⭐️</p>
+</div>
