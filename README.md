@@ -38,26 +38,28 @@ $$A = \frac{2}{3} - \frac{1}{3} = \frac{1}{3}$$
 
 **Result:** The area of the leaf-shaped region is exactly **1/3 square units**.
 
-## Requirements
+## Dependencies
 
-To run this project, you need:
+This project requires the following Python libraries:
 
+- **NumPy** - For numerical computations and array operations
+- **Matplotlib** - For creating visualizations and plotting graphs
+
+## Installation
+
+Follow these steps to set up and run the project:
+
+### Prerequisites
 - Python 3.7 or higher
-- NumPy (for numerical computations)
-- Matplotlib (for visualization)
-- SciPy (for numerical integration)
 
-Install the required packages using:
+### Install Required Packages
+
+Install the required packages using pip:
 ```bash
 pip install numpy matplotlib
 ```
 
-Or if you have a `requirements.txt`:
-```bash
-pip install -r requirements.txt
-```
-
-## How to Run
+### Setup
 
 1. Clone this repository:
    ```bash
@@ -70,36 +72,72 @@ pip install -r requirements.txt
    pip install numpy matplotlib
    ```
 
-3. Run the Python script:
-   ```bash
-   python leaf_integration.py
-   ```
+## Usage
+
+Run the Python script to visualize the leaf-shaped area:
+
+```bash
+python Leaf_Integration.py
+```
 
 The script will:
 - Calculate the area between the curves numerically
 - Generate a visualization showing both curves and the shaded region
-- Display the calculated area value
-- Save the plot as an image file
+- Display the plot in a window
+
+### What the Script Does
+
+When you run `Leaf_Integration.py`, it:
+1. Creates 250 evenly-spaced points between x=0 and x=1
+2. Calculates y-values for both curves: $y = \sqrt{x}$ and $y = x^2$
+3. Plots both curves with the upper curve in green and lower curve in blue
+4. Fills the area between the curves with a semi-transparent green color
+5. Displays a window with the complete visualization
 
 ## Output Preview
 
 The program generates a visualization showing:
-- The curve $y = \sqrt{x}$ (typically in blue)
-- The curve $y = x^2$ (typically in red)
-- The shaded leaf-shaped region between them
-- The calculated area value (≈ 0.3333 or 1/3)
+- The curve $y = \sqrt{x}$ (shown in green)
+- The curve $y = x^2$ (shown in blue)
+- The shaded leaf-shaped region between them (filled with semi-transparent green)
+- Grid lines for reference
+- Proper axis labels and legend
 
 <p align="center">
   <img src="Leaf_Integration.png" alt="Leaf Integration" width="400">
-*Image: Visualization of the area between $y = \sqrt{x}$ and $y = x^2$*
 </p>
 
+<p align="center">
+  <em>Visualization of the area between y=√x and y=x²</em>
+</p>
 
 **Mathematical Note:** This problem beautifully demonstrates how integration can compute areas of complex shapes. The result of exactly 1/3 is a precise mathematical fact, showcasing the elegance of calculus in solving geometric problems.
 
-## 📄 License
+## File Descriptions
+
+### Main Files
+
+- **`Leaf_Integration.py`** - The main Python script that creates the visualization. It uses NumPy to generate data points and Matplotlib to plot the curves and fill the area between them.
+
+- **`Leaf_Integration.png`** - A screenshot of the output visualization showing the leaf-shaped region between the two curves.
+
+- **`LICENSE`** - MIT License file containing the terms of use for this project.
+
+- **`README.md`** - This file, containing project documentation and instructions.
+
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+**MIT License** - Copyright (c) 2025 0PKunal
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions outlined in the [LICENSE](LICENSE) file.
+
+## Author
+
+**0PKunal**
+- GitHub: [@0PKunal](https://github.com/0PKunal)
+- Project Repository: [Leaf-Integration](https://github.com/0PKunal/Leaf-Integration)
 
 ---
 <div align="center">
