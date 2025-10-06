@@ -42,8 +42,11 @@ $$A = \frac{2}{3} - \frac{1}{3} = \frac{1}{3}$$
 
 This project requires the following Python libraries:
 
-- **NumPy** - For numerical computations and array operations
-- **Matplotlib** - For creating visualizations and plotting graphs
+- **NumPy** – For numerical computations and array operations  
+- **Matplotlib** – For creating visualizations and plotting graphs  
+
+> **Note:** If you are using Anaconda, these libraries are already included, so no additional installation is required.
+
 
 ## Installation
 
@@ -52,7 +55,7 @@ Follow these steps to set up and run the project:
 ### Prerequisites
 - Python 3.7 or higher
 
-### Install Required Packages
+### Install Required Packages (if not using Anaconda)
 
 Install the required packages using pip:
 ```bash
@@ -64,15 +67,14 @@ pip install numpy matplotlib
 1. Clone this repository:
    ```bash
    git clone https://github.com/0PKunal/Leaf-Integration.git
+   ```
+
+2. Then change the directory:
+   ```bash
    cd Leaf-Integration
    ```
 
-2. Install the required dependencies:
-   ```bash
-   pip install numpy matplotlib
-   ```
-
-## Usage
+### Usage
 
 Run the Python script to visualize the leaf-shaped area:
 
@@ -132,12 +134,6 @@ This project is open source and available under the [MIT License](LICENSE).
 **MIT License** - Copyright (c) 2025 0PKunal
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions outlined in the [LICENSE](LICENSE) file.
-
-## Author
-
-**0PKunal**
-- GitHub: [@0PKunal](https://github.com/0PKunal)
-- Project Repository: [Leaf-Integration](https://github.com/0PKunal/Leaf-Integration)
 
 ---
 <div align="center">
