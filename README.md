@@ -133,10 +133,12 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **MIT License** - Copyright (c) 2025 0PKunal
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions outlined in the [LICENSE](LICENSE) file.
+*Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions outlined in the [LICENSE](LICENSE) file.*
+
 ---
 > **Note:** This README.md file was generated with the assistance of GitHub Copilot. While every effort has been made to ensure accuracy and clarity, there may still be minor errors or inconsistencies. Users are encouraged to review the content carefully and make any necessary adjustments.
 ---
+
 <div align="center">
   <p>Made with ❤️ by <a href="https://github.com/0PKunal">0PKunal</a></p>
   <p>If this project helped you, please give it a ⭐️</p>
