@@ -127,6 +127,16 @@ The program generates a visualization showing:
 
 - **`README.md`** - This file, containing project documentation and instructions.
 
+### Structure
+
+```
+├── .gitignore
+├── LICENSE
+├── Leaf_Integration.png
+├── Leaf_Integration.py
+└── README.md
+```
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
